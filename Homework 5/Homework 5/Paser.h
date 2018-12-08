@@ -7,9 +7,15 @@
 
 
 namespace Parser {
-	double prim(bool);
-	double term(bool);
-	double expr(bool);
+	double prim(bool get);
+	double term(bool get);
+	double expr(bool get);
 	
+	using namespace Lexer;
+	using namespace Error;
 }
+//extern double Parser::prim(bool get);
+//extern double Parser::term(bool get);
+//extern double Parser::expr(bool get);
+
 #endif // !PASER

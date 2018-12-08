@@ -1,17 +1,17 @@
 #include "stdafx.h"
 #include "iostream"
-//#include "Lexer.h"
-//#include "Error.h"
+#include "Lexer.h"
+#include "Error.h"
 #include "Paser.h"
 #include "string"
 using namespace std;
-using namespace Lexer;
-using namespace Error;
+//using namespace Lexer;
+//using namespace Error;
 //using namespace Parser;
 
-Token_value get_token();
+Lexer::Token_value get_token();
 
-double prim(bool get)
+double Parser::prim(bool get)
 {
 	if (get) get_token();
 	switch (curr_tok) {
@@ -22,15 +22,15 @@ double prim(bool get)
 	}
 	case NAME:
 	{
-		double& v = Lexer::table[string_value];
-		if (get_token() == ASSIGN) v = Parser::expr(true);
+		double& v = table[string_value];
+		if (get_token() == ASSIGN) v = expr(true);
 		return v;
 	}
 	case MINUS:
 		return -prim(true);
 	case LP:
 	{
-		double e = Parser::expr(true);
+		double e = expr(true);
 		if (curr_tok != RP) return error(") expected");
 		get_token();
 		return e;
@@ -38,7 +38,7 @@ double prim(bool get)
 	}
 }
 
-double term(bool get)
+double Parser::term(bool get)
 {
 	double left = prim(get);
 	for (;;)
@@ -57,7 +57,7 @@ double term(bool get)
 		}
 
 }
-double expr(bool get)
+double Parser::expr(bool get)
 {
 	double left = term(get);
 	for (;;) {
@@ -73,3 +73,4 @@ double expr(bool get)
 		}
 	}
 }
+

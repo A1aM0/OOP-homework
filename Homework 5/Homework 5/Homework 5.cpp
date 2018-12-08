@@ -6,8 +6,8 @@
 #include "Lexer.h"
 #include "Error.h"
 #include "Paser.h"
-#include "string"
-#include "map"
+//#include "string"
+//#include "map"
 using namespace std;
 
 void book9_6_3();

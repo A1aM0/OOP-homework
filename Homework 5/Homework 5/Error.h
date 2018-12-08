@@ -1,7 +1,7 @@
 #pragma once
 #include "Lexer.h"
 #include "string"
-//#include "Error.h"
+#include "Error.h"
 #ifndef ERROR
 #define ERROR
 using namespace std;
@@ -16,5 +16,6 @@ namespace Error {
 		return 1;
 	}*/
 }
+extern double Error::error(const string& s);
 
 #endif // !ERROR

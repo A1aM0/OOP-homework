@@ -8,6 +8,8 @@
 #include "string"
 #include "map"
 using namespace std;
+
+
 namespace Lexer {
 
 	enum Token_value {
@@ -18,12 +20,17 @@ namespace Lexer {
 		PRINT = ';', ASSIGN = '=',
 		LP = '(', RP = ')'
 	};
-	Token_value curr_tok;
-	double number_value;
-	string string_value;
-	map<string, double>    table;
-	int		no_of_errors;
+	extern Token_value curr_tok;
+	extern double number_value;
+	extern string string_value;
+	extern map<string, double>    table;
+	extern int		no_of_errors;
 
 }
+//extern Lexer::Token_value curr_tok;
+//extern double Lexer::number_value;
+//extern string Lexer::string_value;
+//extern map<string, double> Lexer::table;
+//extern int Lexer::no_of_errors;
 
 #endif // !LEXER

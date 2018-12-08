@@ -1,15 +1,16 @@
 #include "stdafx.h"
 #include "iostream"
-//#include "Lexer.h"
+#include "Lexer.h"
 #include "Error.h"
+//#include "Paser.h"
 //#include "string"
 using namespace std;
-using namespace Lexer;
-using namespace Error;
+//using namespace Lexer;
+//using namespace Error;
 
-double error(const string& s)
+double Error::error(const string& s)
 {
-	no_of_errors++;
+	Lexer::no_of_errors++;
 	cout << "error: " << s << "\n";
 	return 1;
 }
