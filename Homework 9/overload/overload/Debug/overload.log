@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  overload.cpp
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(8): error C2059: 语法错误:“<”
+  d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(29): note: 参见对正在编译的类 模板 实例化“ArrayTmp<T>”的引用
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(8): error C2238: 意外的标记位于“;”之前
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(51): error C2989: “Array”: 类 模板 已经声明为非类 模板
+  d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(8): note: 参见“Array”的声明
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(44): error C3857: “Array”: 不允许使用多个 模板 参数列表
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(58): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(58): error C2059: 语法错误:“<”
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(64): error C2065: “intArray”: 未声明的标识符
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(66): error C2065: “intArray”: 未声明的标识符
+d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(66): error C2228: “.print”的左边必须有类/结构/联合
+  d:\graduate courses\oop\homework\homework 9\overload\overload\overload.cpp(66): note: 类型是“unknown-type”

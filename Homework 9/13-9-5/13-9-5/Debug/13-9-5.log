@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  13-9-5.cpp
+d:\graduate courses\oop\homework\homework 9\13-9-5\13-9-5\13-9-5.cpp(14): error C2039: “price”: 不是“Record”的成员
+  d:\graduate courses\oop\homework\homework 9\13-9-5\13-9-5\13-9-5.cpp(11): note: 参见“Record”的声明
+d:\graduate courses\oop\homework\homework 9\13-9-5\13-9-5\13-9-5.cpp(21): error C2039: “price”: 不是“Record”的成员
+  d:\graduate courses\oop\homework\homework 9\13-9-5\13-9-5\13-9-5.cpp(11): note: 参见“Record”的声明

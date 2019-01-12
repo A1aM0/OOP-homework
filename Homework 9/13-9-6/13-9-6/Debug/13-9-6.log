@@ -1,0 +1,7 @@
+﻿  13-9-6.cpp
+d:\graduate courses\oop\homework\homework 9\13-9-6\13-9-6\13-9-6.cpp(9): error C2059: 语法错误:“public”
+  d:\graduate courses\oop\homework\homework 9\13-9-6\13-9-6\13-9-6.cpp(13): note: 参见对正在编译的类 模板 实例化“SortedSet<T,iSz>”的引用
+d:\graduate courses\oop\homework\homework 9\13-9-6\13-9-6\13-9-6.cpp(9): error C2062: 意外的类型“bool”
+d:\graduate courses\oop\homework\homework 9\13-9-6\13-9-6\13-9-6.cpp(9): error C2238: 意外的标记位于“;”之前
+d:\graduate courses\oop\homework\homework 9\13-9-6\13-9-6\13-9-6.cpp(12): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\graduate courses\oop\homework\homework 9\13-9-6\13-9-6\13-9-6.cpp(21): error C2039: “insert”: 不是“SortedSet<T,iSz>”的成员
